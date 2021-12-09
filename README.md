@@ -3,7 +3,7 @@
 Java Gradle IntelliJ IDEA Selenide Selenoid JUnit5 Github Jenkins Allure Report Allure TestOps Telegram Jira
 #### Запускать тесты с терминала локально
 ##### Run tests with filled remote properties:
-> gradle clean test
+`gradle clean test`
 
 
 
