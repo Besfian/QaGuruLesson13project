@@ -5,16 +5,14 @@ Java Gradle IntelliJ IDEA Selenide Selenoid JUnit5 Github Jenkins Allure Report 
 ##### Run tests with filled remote properties:
 `gradle clean test`
 #### Run tests without filled remote properties:
-`gradle clean
-test
--Dtag=${tag}
--Denvironment=${ENVIRONMENT}
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--DbrowserMobileView=${BROWSER_MOBILE}
--DURL=${REMOTE_DRIVER_URL}
--DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
--Dthreads=${THREADS}`
+`j
+clean test
+ava  \
+"-DprojectName=${PROJECT_NAME}" \
+"-Denv=${ENVIRONMENT}" \
+"-DreportLink=${BUILD_URL}" \
+"-Dcomm=Any comment here" \
+"-Dconfig.file=notifications/telegram.json" \
+-jar allure-notifications-3.1.2.jar`
 
 
