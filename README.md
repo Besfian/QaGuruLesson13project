@@ -1,2 +1,2 @@
-#The test automation project for [SEMRUSH website](https://ru.semrush.com/)
+# The test automation project for [SEMRUSH website](https://ru.semrush.com/)
 
