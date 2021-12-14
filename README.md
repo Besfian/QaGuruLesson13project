@@ -65,10 +65,9 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 ### Интерграция с Jira
 <a href="https://ibb.co/C9fRLvH"><img src="https://i.ibb.co/VCsf6Dq/Jira.png" alt="Jira" border="0" /></a>
 ### Уведомления о прохождении автотестов в Telegram
-<p align="center">
-  <img src="images/screens/bot.PNG">
-</p>
+<p  align="center"
 
-<p align="center">
-  <img src="images/screens/bot.PNG">
+<code>
+<img width="5%" title="Java" src="images/screens/bot.png">
+</code>
 </p>
