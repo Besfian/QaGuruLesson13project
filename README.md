@@ -68,6 +68,6 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 <p  align="center"
 
 <code>
-<img width="100%" title="TelegramBot" src="images/screens/bot.png">
+<img width="50%" title="TelegramBot" src="images/screens/bot.png">
 </code>
 </p>
