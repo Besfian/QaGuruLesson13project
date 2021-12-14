@@ -11,18 +11,23 @@
 ## Технологический стек
 Java, Gradle, JUnit5, IntelliJ IDEA, Selenide, Jenkins, Allure TestOps, Jira, Github, Telegram
 
-<a href="https://github.com/angry-qa/vkc-demo">
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Java.svg" width="40" height="40"  alt="Java"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Gradle.svg" width="40" height="40"  alt="Gradle"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/JUnit5.svg" width="40" height="40"  alt="JUnit 5"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg" width="40" height="40"  alt="Seleide"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Jira.svg" width="40" height="40"  alt="Jira"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
-</a>
+<p  align="center"
+
+<code>
+<img width="5%" title="Java" src="images/logo/Java_icon.png">
+<img width="5%" title="Gradle" src="images/logo/Gradle_icon.svg">
+<img width="5%" title="IntelliJ IDEA" src="images/logo/Intellij_icon.png">
+<img width="5%" title="Selenide" src="images/logo/Selenide_icon.svg">
+<img width="5%" title="Selenoid" src="images/logo/Selenoid_icon.svg">
+<img width="5%" title="JUnit5" src="images/logo/JUnit5_icon.png">
+<img width="5%" title="Github" src="images/logo/Github_icon.png">
+<img width="5%" title="Jenkins" src="images/logo/Jenkins_icon.svg">
+<img width="5%" title="Allure Report" src="images/logo/Allure_Report_icon.svg">
+<img width="5%" title="Allure TestOps" src="images/logo/Allure_TestOps_icon.svg">
+<img width="5%" title="Telegram" src="images/logo/Telegram_icon.png">
+<img width="5%" title="Jira" src="images/logo/Jira_icon.png">
+</code>
+</p>
 
 ## Как запустить
 Перед выполением необходимо:
@@ -46,8 +51,7 @@ gradle clean test
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-### Видео о прохождении тестов
-<img src="https://i.ibb.co/93q2DGd/fefcc5cbac5d03c1.gif" alt="video test" border="0" />
+
 
 ### Запуск в Jenkins
 Статистика по запускам <br >
@@ -60,13 +64,9 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 <a href="https://ibb.co/HzG3q6q"><img src="https://i.ibb.co/WyBjfZf/Allure-report.png" alt="Allure-report" border="0" /></a>
 ### Список автотестов в Allure Report
 <a href="https://ibb.co/sWqKV61"><img src="https://i.ibb.co/hYVBmZd/Allure-list.png" alt="Allure-list" border="0" /></a>
-### Хранение тестовой документации в Allure TestOps
-<a href="https://ibb.co/dGQYBx1"><img src="https://i.ibb.co/qkRQBVX/Allure-Test-Ops.png" alt="Allure-Test-Ops" border="0" /></a>
-### Интерграция с Jira
-<a href="https://ibb.co/C9fRLvH"><img src="https://i.ibb.co/VCsf6Dq/Jira.png" alt="Jira" border="0" /></a>
+
 ### Уведомления о прохождении автотестов в Telegram
 <p  align="center"
-
 <code>
 <img width="50%" title="TelegramBot" src="images/screens/bot.png">
 </code>
