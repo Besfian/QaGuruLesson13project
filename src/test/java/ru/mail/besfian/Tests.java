@@ -16,7 +16,6 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 public class Tests extends TestBase {
-    @Disabled
     @Owner("Sergeev")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка отображения страницы Тарифы")
@@ -33,7 +32,6 @@ public class Tests extends TestBase {
         });
     }
 
-    @Disabled
     @Owner("Sergeev")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка отображения страницы Топовые веб-сайты")
@@ -52,7 +50,6 @@ public class Tests extends TestBase {
 
     }
 
-    @Disabled
     @Owner("Sergeev")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка отображения страницы Контакты")
@@ -71,7 +68,6 @@ public class Tests extends TestBase {
 
     }
 
-    @Disabled
     @Owner("Sergeev")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Проверка авторизации и отображения личного кабинета")
@@ -100,16 +96,16 @@ public class Tests extends TestBase {
     @DisplayName("Проверка отображения страницы SEMrush API")
     @Test
     void test4() {
-        step("переход на страницу SEMrush API", () -> {
+        step("Открытие главной страницы", () -> {
             open("https://ru.semrush.com/");
         });
         step("переход на страницу SEMrush API", () -> {
-            $(byText("Semrush API")).scrollTo().click();
+            $(byText("Semrush API")).scrollTo().click();});
             step("проверка отображения элемента", () -> {
                 $(byText("Get API")).click();
                 $(byText("Get API")).shouldHave(visible);
             });
-        });
+
 
 
     }
