@@ -1,4 +1,4 @@
-# Проект автотестов на МЕДИНДЕКС
+# Проект автотестов на сайт SemRush
 
 ## Покрыт следующий функционал
 * UI тесты
@@ -54,16 +54,23 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 
 
 ### Запуск в Jenkins
-Статистика по запускам <br >
-<a href="https://ibb.co/nnKgcv6"><img src="https://i.ibb.co/CMS17Zm/statistic-jenkins.png" alt="Статистика по запускам" border="0" /></a>
-
-Параметры запуска <br >
-<a href="https://ibb.co/zbNbgHb"><img src="https://i.ibb.co/Y8b8ST8/jenkins-parametrs.png" alt="jenkins-parametrs" border="0" /></a>
+<p  align="center"
+<code>
+<img width="50%" title="Запуск в Jenkins" src="images/screens/Запуск в Jenkins.png">
+</code>
 
 ### Отчёт о прохождении автотестов в Allure Report
-<a href="https://ibb.co/HzG3q6q"><img src="https://i.ibb.co/WyBjfZf/Allure-report.png" alt="Allure-report" border="0" /></a>
+<p  align="center"
+<code>
+<img width="50%" title="Отчёт о прохождении автотестов" src="images/screens/Отчёт о прохождении автотестов в Allure Report.png">
+</code>
+
 ### Список автотестов в Allure Report
-<a href="https://ibb.co/sWqKV61"><img src="https://i.ibb.co/hYVBmZd/Allure-list.png" alt="Allure-list" border="0" /></a>
+<p  align="center"
+<code>
+<img width="50%" title="Список автотестов" src="images/screens/Список автотестов в Allure Report.png">
+</code>
+</p>
 
 ### Уведомления о прохождении автотестов в Telegram
 <p  align="center"
