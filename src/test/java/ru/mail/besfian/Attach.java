@@ -19,7 +19,7 @@ public class Attach {
         return message;
     }
 
-    @Attachment(value = "Page source", type = "text/plain")
+    @Attachment(value = "PageObject source", type = "text/plain")
     public static byte[] pageSource() {
         return getWebDriver().getPageSource().getBytes(StandardCharsets.UTF_8);
     }

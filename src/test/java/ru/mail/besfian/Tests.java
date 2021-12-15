@@ -16,13 +16,15 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 public class Tests extends TestBase {
+    PageObject pageObject = new PageObject();
+
     @Owner("Sergeev")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Проверка отображения страницы Тарифы")
     @Test
     void test() {
         step("переход по ссылке", () -> {
-            open("https://ru.semrush.com/");
+            pageObject.openPage();
         });
         step("переход на страницу Тарифы", () -> {
             $(byText("Тарифы")).click();
@@ -38,7 +40,7 @@ public class Tests extends TestBase {
     @Test
     void test1() {
         step("переход по ссылке", () -> {
-            open("https://ru.semrush.com/");
+            pageObject.openPage();
         });
         step("переход на страницу Топовые веб-сайты", () -> {
             $(byText("Ресурсы")).click();
@@ -56,7 +58,7 @@ public class Tests extends TestBase {
     @Test
     void test2() {
         step("переход по ссылке", () -> {
-            open("https://ru.semrush.com/");
+            pageObject.openPage();
         });
         step("переход на страницу Контакты", () -> {
             $(byText("О компании")).click();
@@ -74,12 +76,11 @@ public class Tests extends TestBase {
     @Test
     void test3() {
         step("переход по ссылке", () -> {
-            open("https://ru.semrush.com/");
+            pageObject.openPage();
         });
         step("авторизация", () -> {
             $(byText("Войти")).click();
-            $("#email").setValue("besfian@mail.ru");
-            $("#password").setValue("spride0930237h").pressEnter();
+            pageObject.authorization("besfian@mail.ru", "spride0930237h");
         });
         step("проверка отображение элемента в личном кабинете", () -> {
             $("[data-ui-name=Box]").shouldHave(visible);
@@ -97,15 +98,15 @@ public class Tests extends TestBase {
     @Test
     void test4() {
         step("Открытие главной страницы", () -> {
-            open("https://ru.semrush.com/");
+            pageObject.openPage();
         });
         step("переход на страницу SEMrush API", () -> {
-            $(byText("Semrush API")).scrollTo().click();});
-            step("проверка отображения элемента", () -> {
-                $(byText("Get API")).click();
-                $(byText("Get API")).shouldHave(visible);
-            });
-
+            $(byText("Semrush API")).scrollTo().click();
+        });
+        step("проверка отображения элемента", () -> {
+            $(byText("Get API")).click();
+            $(byText("Get API")).shouldHave(visible);
+        });
 
 
     }
