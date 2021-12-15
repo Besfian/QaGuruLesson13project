@@ -58,14 +58,13 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 <code>
 <img width="50%" title="Запуск в Jenkins" src="images/screens/Запуск в Jenkins.png">
 </code>
-</p>" border="0" /></a>
 
 ### Отчёт о прохождении автотестов в Allure Report
 <p  align="center"
 <code>
 <img width="50%" title="Отчёт о прохождении автотестов" src="images/screens/Отчёт о прохождении автотестов в Allure Report.png">
 </code>
-</p>" border="0" /></a>
+
 ### Список автотестов в Allure Report
 <p  align="center"
 <code>
