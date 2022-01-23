@@ -37,10 +37,7 @@ Java, Gradle, JUnit5, IntelliJ IDEA, Selenide, Jenkins, Allure TestOps, Jira, Gi
 gradle clean test
 ```
 
-### Удаленно
-```bash
-gradle clean test
-```
+
 
 
 
