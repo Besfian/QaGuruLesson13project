@@ -30,26 +30,14 @@ Java, Gradle, JUnit5, IntelliJ IDEA, Selenide, Jenkins, Allure TestOps, Jira, Gi
 </p>
 
 ## Как запустить
-Перед выполением необходимо:
-* в local.properies определить параметры конфигурации (для запуска тестов локально)
-* в remote.properies определить параметры конфигурации (для запуска тестов удаленно) или передать значения:
-    - browser (default chrome)
-    - browserVersion (default 89.0)
-    - browserSize (default 1920x1080)
-    - browserMobileView (mobile device name, for example iPhone X)
-    - remoteDriverUrl (url address from selenoid or grid)
-    - videoStorage (url address where you should get video)
-    - threads (number of threads)
+
 
 ### Локально
 ```
 gradle clean test
 ```
 
-### Удаленно
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
+
 
 
 
