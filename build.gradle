@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.16.0",
+def allureVersion = "2.16.1",
     selenideVersion = "5.24.0",
     junitVersion = "5.8.1"
 
@@ -23,6 +23,9 @@ allure {
 
 dependencies {
     testImplementation(
+            "io.rest-assured:rest-assured:4.4.0",
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "org.assertj:assertj-core:3.21.0",
             'commons-io:commons-io:2.11.0',
             'com.codeborne:pdf-test:1.7.0',
             'com.codeborne:xls-test:1.2',
