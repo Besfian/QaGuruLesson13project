@@ -57,7 +57,7 @@ gradle clean test
 
 <p  align="center"
 <code>
-<img width="50%" title="Отчёт о прохождении автотестов" src="images/screens/Отчёт о прохождении автотестов в allure_testops.png">
+<img width="50%" title="Отчёт о прохождении автотестов" src="images/screens/allure_testops.png">
 </code>
 
 ### Список автотестов в Allure Report
