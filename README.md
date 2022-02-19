@@ -47,6 +47,11 @@ gradle clean test
 <img width="50%" title="Запуск в Jenkins" src="images/screens/Запуск в Jenkins.png">
 </code>
 
+<p  align="center"
+<code>
+<img width="50%" title="Запуск в Jenkins" src="images/screens/jenkins_собрать.png.png">
+</code>
+
 ### Отчёт о прохождении автотестов в Allure Report
 <p  align="center"
 <code>
